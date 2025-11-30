@@ -7,11 +7,14 @@
 
 > *The core logic behind the character's movement. Handles running, jumping, and looking cool while doing it.* ✨
 
+<div align="center">
+
 <br>
+
 ![Unity](https://img.shields.io/badge/Unity-2D_Physics-black?style=for-the-badge&logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-Scripting-9b59b6?style=for-the-badge&logo=c-sharp&logoColor=white)
-</div>
 
+</div>
 ---
 
 ## 🎀 How It Works
