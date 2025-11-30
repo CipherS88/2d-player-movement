@@ -1,13 +1,11 @@
 <div align="center">
 
-# 🏃‍♀️ Player Movement Controller
+# ✨ Player Movement Controller
 ### *Smooth Physics & Snappy Combat*
 
 <br>
 
-> *The core logic behind the character's movement. Handles running, jumping, and looking cool while doing it.* ✨
-
-<div align="center">
+> *The core logic behind the character's movement. Handles running, jumping, and looking cool while doing it.*
 
 <br>
 
@@ -17,14 +15,24 @@
 </div>
 
 
-## 🎀 How It Works
-This script uses `Rigidbody2D` for physics based movement, ensuring the character interacts naturally with the world (gravity, collisions, etc.).
 
-### ✨ Key Features
+### 🎮Showcase
+
+| | |
+|:---:|:---:|
+| ![Screenshot 1](gamepic/1.png) | ![Screenshot 2](gamepic/2.png) |
+| ![Screenshot 3](gamepic/3.png) | ![Screenshot 4](gamepic/4.png) |
+
+---
+
+## ✨ How It Works
+This script uses `Rigidbody2D` for physics-based movement, ensuring the character interacts naturally with the world (gravity, collisions, etc.).
+
+### Key Features
 * **💨 Horizontal Movement:** Uses `Input.GetAxisRaw` for snappy, responsive turning without that "floaty" feeling.
 * **🦘 Ground Check:** Uses **Raycasting** to detect the floor. No more infinite jumping glitches!
 * **⚔️ Combat Ready:** Listens for `Mouse0` clicks to trigger attack animations via `tryToATT()`.
-* **💃 Animation Sync:** Automatically sends `xVelocity` and `yVelocity` to the Animator so the character runs and falls at the right speeds.
+* **👾 Animation Sync:** Automatically sends `xVelocity` and `yVelocity` to the Animator so the character runs and falls at the right speeds.
 
 ---
 
@@ -34,7 +42,7 @@ A peek under the hood at how we handle the math.
 | Function | What it does |
 | :--- | :--- |
 | `handleinput()` | Listens for Space (Jump) and Mouse Click (Attack). |
-| `tryToJump()` | Checks if `isGround` is true before applying force. Safety first! 👷‍♀️ |
+| `tryToJump()` | Checks if `isGround` is true before applying force. Safety first! |
 | `flip()` | Rotates the character 180° so they always face the right way. |
 | `OnDrawGizmos()` | Draws a line in the editor so we can see the ground check working. 📏 |
 
@@ -48,5 +56,6 @@ A peek under the hood at how we handle the math.
 > *Dev Note: Updated to use `rb.linearVelocity` for modern Unity 6 physics support!* 🚀
 
 <div align="center">
-  <i>"fixing the double tryToJump shit"  A Legacy</i> 
+  <br>
+  <i>"fixing the double tryToJump shit"  A Legacy</i> ✨
 </div>
