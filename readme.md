@@ -15,7 +15,7 @@
 ![C#](https://img.shields.io/badge/C%23-Scripting-9b59b6?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 </div>
----
+
 
 ## 🎀 How It Works
 This script uses `Rigidbody2D` for physics based movement, ensuring the character interacts naturally with the world (gravity, collisions, etc.).
